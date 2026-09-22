@@ -39,21 +39,3 @@ for number in range(1, n + 1):
     total += number
 print(total)
 ```
-
-## Bài 5 - Tìm số lớn nhất
-```python
-numbers = [14, 7, 25, 9, 18]
-largest = numbers[0]
-for number in numbers:
-    if number > largest:
-        largest = number
-print(largest)
-```
-
-## Bài 6 - Nhập điểm hợp lệ
-```python
-score = -1
-while score < 0 or score > 10:
-    score = float(input("Score 0-10: "))
-print(score)
-```
