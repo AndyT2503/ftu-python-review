@@ -82,6 +82,9 @@ print(df.head())
 | `df["column"]` | Chọn một Series |
 | `df[["a", "b"]]` | Chọn nhiều cột |
 | `df.iloc[1:3]` | Lấy dòng vị trí 1 và 2 |
+| `df.iloc[row, column]`| Lấy theo 1 ô theo dòng và cột |
+| `df.iloc[:, column]`| Lấy theo 1 cột |
+| `df.iloc[row, :]`| Lấy theo 1 dòng |
 
 ## Thống kê và tương quan
 | Phương thức | Ý nghĩa |
